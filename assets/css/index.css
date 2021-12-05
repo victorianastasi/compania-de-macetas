@@ -1,0 +1,497 @@
+html {
+    scroll-behavior: smooth; }
+  
+body {
+background-color: #fafafa;
+font-family: "Open Sans Condensed", sans-serif;
+font-size: 1.1rem;
+color: #626567;
+margin: 0;
+padding: 0;
+position: relative; }
+
+::-moz-selection {
+background-color: #d4bdb8;
+color: black; 
+}
+a, a:hover, a:visited{
+    text-decoration: none;
+    color: white;
+}
+@font-face {
+    font-family: Smilicious;
+    src: url("../fonts/Smilicious.ttf");
+}
+.svg-bg{
+    width: 100%;
+    height: 35vh;
+}
+header{
+    position: relative;
+}
+.title-text{
+    width: 100%;
+    position: absolute;
+    top: 17%;
+    text-align: center;
+}
+.title{
+    font-family: Smilicious;
+    font-size: 2.5rem;
+    color: rgb(250,250,250);
+}
+nav{
+    width: 100%;
+    margin: 2.5rem auto 0 auto; 
+}
+.nav-pills .nav-link.active, .nav-pills .nav-link{
+    background-color: rgba(255,255,255, 0.4);
+    color: #626567;
+    padding: 0.5rem 0rem;
+    color: #626567;
+    margin: 0 0.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav-pills .nav-link:hover{
+    background-color: rgba(255,255,255, 0.7);
+}
+.logo-container{
+    background-color: rgb(250,250,250);
+    text-align: center;
+}
+.logo{
+    width: 40%;
+    margin: -3rem 0 1rem 0;
+    border-radius: 50%;
+}
+.title-section{
+    font-family: Smilicious;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    color: #4c4e50;
+    background-image: linear-gradient(to right, rgb(217,183,141), rgba(223,197,173, 0.5));
+    text-align: center;
+    width: 90%;
+    padding: 0.75rem 0;
+    margin: 1rem auto 2.5rem auto;
+    border-radius: 10px 25px 15px;
+}
+.macetas{
+    background-image: url(../../img/green.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: inherit;
+    margin: 2rem 0;
+}
+.macetas-bg{
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    padding: 2rem 0;
+    background-color: rgb(0,0,0,0.3);
+}
+.box-macetas{
+    width: 90%;
+    margin: 1rem auto 2rem auto;
+    display: flex;
+    flex-flow: row wrap;
+    place-content: center space-evenly;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+}
+.img-macetas{
+    width: 45%;
+    box-shadow: 20px 20px 10px -10px rgba(0, 0, 0, 0.05);
+    border: 5px solid white;
+    opacity: 0.9;
+    transition: all 0.3s;
+}
+.img-macetas:hover{
+    box-shadow: 20px 20px 10px -10px rgba(0, 0, 0, 0.25);
+    transform: scale(1.2);
+    opacity: 1;
+    filter: brightness(110%);
+}
+.box-somos{
+    background-image: url("../../img/somos.png");
+    height: 210px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 2rem 0;
+}
+.box-somos-text{
+    background-color: rgba(223,197,173, 0.3);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    color: #4c4e50;
+    width: 90%;
+    border-radius: 10px;
+    margin: -60px auto 32px auto;
+    padding: 2rem 1rem;
+}
+.box-somos-text p{
+    margin: 0;
+    text-align: center;
+}
+.social-media{
+    display: flex;
+    margin: 2rem 0;
+    place-content: center space-evenly;
+}
+.social-media-icon{
+    padding: 0;
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    transition: all 0.3s;
+}
+.icon{
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+}
+.instagram{
+    background-image: linear-gradient(to right, #515bd4, #8134AF, #DD2A7B);
+}
+.wapp{
+    background-image: linear-gradient(to right, #00b22d, #25d366);
+}
+.icon-text{
+    display: inline-block;
+    color: #4c4e50;
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+    font-weight: 600;
+}
+.social-media-icon:hover{
+    background-color: rgb(48, 48, 48);    
+}
+.social-media-icon:hover .icon-text{
+    color: white;
+}
+.query-container{
+    background-image: url("../../img/plants-bg.jpg");
+    height: inherit;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5rem;
+    padding: 1rem 0;
+}
+.query {
+    margin: 3rem auto; 
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+.query-title {
+    font-family: Smilicious;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    margin: 0;
+    color: rgb(241, 215, 195);
+}
+.query form {   
+    font-size: 1.5rem;
+    color: rgb(137, 196, 173);
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+label{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: rgb(250,250,250);
+    font-weight: 500;
+}
+.query form .boxes {
+    color: #626567;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 2px; 
+}
+.query form .boxes .obligatorio {
+    color: #ee2727; 
+}
+.query form .boxes input {
+    font-size: 0.9rem;
+    border: none;
+    border-bottom: 1px solid rgb(219, 219, 216);
+    border-radius: 5px; 
+}
+.query form .boxes small {
+    letter-spacing: 0px; 
+    color: rgb(250,250,250);
+    font-weight: 400;
+}
+.query form .formBtn {
+    background-color: rgb(231, 169, 125);
+    margin: 1rem auto;
+    width: 50%;
+    letter-spacing: 2px; 
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.query form .formBtn:hover {
+    color: rgb(139,60,21); 
+    background-color: rgb(250, 250, 250);
+    letter-spacing: 5px;
+}
+.btnTop{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    background-color: rgba(240, 128, 128, 0.8);
+    border: none;
+    z-index: 1000;
+    border-radius: 50%;
+    padding: 8px 12px;
+    transition: all 0.3s;
+}
+.btnTop-icon{
+    font-size: 1.2rem;
+    color: white;
+}
+.btnTop:hover {
+    background-color: rgba(151, 76, 76, 0.8);
+}
+.sent-form-title{
+    top: 25%;
+}
+.logo-sent-form{
+    width: 50%;
+    margin-top: 3rem;
+}
+.sent-form{
+    background-color: rgba(250,250,250, 0.2);
+    color: #4c4e50;
+    width: 350px;
+    border-radius: 10px;
+    padding: 2rem 1rem;
+    border: 0.5px solid rgba(250,250,250, 0.6);
+    margin: 5rem auto 0 auto;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.email-icon{
+    font-size: 4rem;
+    color: rgb(251,191,117);
+}
+.button-home-box{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.button-home{
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    color: rgb(236, 217, 193);
+}
+@media screen and (min-width: 480px) {
+    .logo-sent-form{
+        margin-top: 2rem;
+        width: 45%;
+    }
+}
+@media screen and (min-width: 576px) {
+    .logo-sent-form{
+        width: 35%;
+        margin-top: 4rem;
+    }
+    .sent-form{
+        margin: 8rem auto 0 auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .svg-bg{
+        height: 55vh;
+    }
+    .title-text{
+        top: 20%;
+    }
+    nav{
+        width: 70%;
+    }
+    .logo{
+        width: 30%;
+        margin: -5rem 0 2rem 0;
+    }
+    .logo-sent-form{
+        margin-top: 4rem;
+    }
+    .sent-form-title{
+        top: 35%;
+    }
+    .sent-form{
+        margin: 3rem auto 0 auto;
+    }
+    .title-section{
+        font-size: 2rem;
+    }
+    .box-macetas{
+        margin: 1rem auto 4rem auto;
+        row-gap: 2rem;
+    }
+    .img-macetas{
+        width: 30%;
+    }
+    .box-somos{
+        background-image: url("../../img/somos-lg.png");
+        height: 550px;
+        margin: 2rem 0;
+    }
+    .box-somos-text{
+        background-color: rgba(250, 250, 250, 0.2);
+        width: 370px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px rgba(250, 250, 250, 0.3);
+        margin: -560px auto 420px auto;
+        padding: 2rem 1.5rem;
+        color: white;
+    }
+    .query {
+        padding: 3rem;
+        width: 60%;
+        border-radius: 15px;
+    }
+    .query form {
+        margin: 0rem auto; 
+        font-size: 1.5rem; 
+    }
+    .query form .boxes {
+        font-size: 1rem; 
+    }
+    .query form .boxes input {
+        font-size: 1rem; 
+    }
+    .query form .formBtn {
+        width: 30%;
+        font-size: 1rem; 
+    }
+}
+@media screen and (min-width: 992px) {
+    .svg-bg{
+        height: 65vh;
+    }
+    .title{
+        font-size: 3.5rem;
+    }
+    nav{
+        width: 50%;
+        margin-top: 2.5rem; 
+    }
+    .nav-pills .nav-link.active, .nav-pills .nav-link{
+        margin: 0 1rem;
+        font-size: 1.3rem;
+    }
+    .logo{
+        margin: -9rem 0 2rem 0;
+    }
+    .logo-sent-form{
+        margin-top: 5rem;
+        width: 25%;
+    }
+    .sent-form{
+        margin: 2rem auto 0 auto;
+        font-size: 1.2rem;
+    }
+    .button-home{
+        font-size: 1.2rem;
+    }
+    .social-media{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .query-title {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    nav{
+        margin-top: 4.5rem; 
+    }
+    .logo{
+        width: 20%;
+        margin: -7rem 0 3rem 0;
+    }
+    .logo-sent-form{
+        margin-top: 3rem;
+        width: 15%;
+    }
+    .sent-form{
+        margin: 0rem auto 0 auto;
+        padding: 2rem 1rem 0 1rem;
+    }
+    .sent-form p:nth-child(1){
+        margin: 0.5rem 0 0 0;
+        line-height: 0;
+    }
+    .title-section{
+        width: 75%;
+        font-size: 2.5rem;
+    }
+    .box-macetas{
+        width: 70%;
+        row-gap: 1.5rem;
+        column-gap: 1.5rem;
+    }
+    .img-macetas{
+        width: 30%;
+        border: 9px solid white;
+    }
+    .box-somos{
+        height: 650px;
+    }
+    .box-somos-text{
+        width: 470px;
+        margin: -640px auto 490px auto;
+        font-size: 1.2rem;
+    }
+    .social-media{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .icon{
+        padding: 0.65rem;
+    }
+    .icon-text{
+        padding-right: 4.5rem;
+        padding-left: 0.75rem;
+        font-size: 1.2rem;
+    }
+    .query{
+        padding: 3.5rem;
+        width: 50%;
+    }
+    label{
+        margin-top: 2rem;
+        font-size: 1.3rem;
+    }
+    .query form .formBtn{
+        font-size: 1.3rem;
+        margin: 1.5rem auto 0 auto;
+    }
+    .btnTop{
+        bottom: 30px;
+        right: 30px;
+    }
+    .btnTop-icon{
+        font-size: 1.7rem;
+        color: white;
+    }
+    .query form .boxes {
+        font-size: 1.1rem;
+    }
+}

@@ -16,7 +16,6 @@ Página Web dedicada a la venta de macetas pintadas, formulario de contacto cons
 - Bootstrap (v 5.15.1)
 - Google Fonts
 - Animate.css (v 4.1.1)
-- PHPMailer
 
 ## Author
 GitHub: @victorianastasi

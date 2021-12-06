@@ -18,5 +18,5 @@ Página Web dedicada a la venta de macetas pintadas, formulario de contacto cons
 - Animate.css (v 4.1.1)
 
 ## Author
-GitHub: @victorianastasi
+GitHub: @victorianastasi \
 LinkedIn: https://www.linkedin.com/in/victoria-nastasi-a3452910b/

@@ -1,9 +1,9 @@
 # Compañia de Macetas
-Página Web dedicada a la venta de macetas pintadas, formulario de contacto construido con PHPMailer.
+Página Web dedicada a la venta de macetas pintadas, desarrollada con la estrategia mobile first, y formulario de contacto construido con PHPMailer.
 
 ## Demo - Compañia de Macetas
 ### Web
-- https://vnastasi.000webhostapp.com/
+[Compañia de Macetas](https://vnastasi.000webhostapp.com/)<br>
 
 ### Desktop
 ![Compañia de Macetas Demo - Desktop](demo/desktop.gif)
@@ -18,5 +18,6 @@ Página Web dedicada a la venta de macetas pintadas, formulario de contacto cons
 - Animate.css (v 4.1.1)
 
 ## Author
-GitHub: @victorianastasi \
-LinkedIn: https://www.linkedin.com/in/victoria-nastasi-a3452910b/
+GitHub: [victorianastasi](https://github.com/victorianastasi)
+
+LinkedIn:  [Victoria Nastasi](https://www.linkedin.com/in/victoria-nastasi-a3452910b/)

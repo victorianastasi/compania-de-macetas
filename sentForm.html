@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,37 +22,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- JQUERY -->
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script defer src="index.js"></script>
     <!-- CSS-->
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
     <header>
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" class="svg-bg" preserveAspectRatio="none" viewBox="0 0 1440 560">
-            <g mask="url(&quot;#SvgjsMask1021&quot;)" fill="none">
-                <path d="M 0,63 C 96,72.4 288,115.4 480,110 C 672,104.6 768,36.6 960,36 C 1152,35.4 1344,92.8 1440,107L1440 560L0 560z" fill="rgba(209, 153, 112, 1)"></path>
-                <path d="M 0,327 C 96,313.6 288,263 480,260 C 672,257 768,325.2 960,312 C 1152,298.8 1344,217.6 1440,194L1440 560L0 560z" fill="rgba(251, 191, 117, 1)"></path>
-                <path d="M 0,486 C 57.6,468.4 172.8,391.6 288,398 C 403.2,404.4 460.8,511.8 576,518 C 691.2,524.2 748.8,438.6 864,429 C 979.2,419.4 1036.8,477.2 1152,470 C 1267.2,462.8 1382.4,408.4 1440,393L1440 560L0 560z" fill="rgba(244, 217, 193, 1)"></path>
-            </g>
-            <defs>
-                <mask id="SvgjsMask1021">
-                    <rect width="1440" height="560" fill="#ffffff"></rect>
-                </mask>
-            </defs>
-        </svg>
-        <div class="title-text sent-form-title">
-            <h1 class="title">Compañia de Macetas</h1>
-            <img class="logo logo-sent-form animate__animated animate__tada animate__slow animate__infinite infinite" src="./img/logo.jpg" alt="Compañia de Macetas">
+        <div class="title-box">
+            <h1 class="title" id="principal-title"><a href="./index.html">Compañia de Macetas</a></h1>
         </div>
     </header>
-    <section>
-        <div class="sent-form">
-            <p><span class="material-icons email-icon">mark_email_read</span></p>
-            <p>Gracias por tu consulta!</p>
-            <p>En breve nos estaremos comunicando con vos</p>
-        </div>
-        <div class="button-home-box">
-            <a href="./index.html" class="btn btn-dark button-home">Continuar navegando en el sitio</a>
+    
+    <section class="sent">
+        <div class="sent-form-container">
+            <div class="sent-form">
+                <p><span class="material-icons email-icon">mark_email_read</span></p>
+                <p>Gracias por tu consulta!</p>
+                <p>En breve nos estaremos comunicando con vos</p>
+                <div class="button-home-box">
+                    <a href="./index.html" class="btn btn-dark button-home">Continuar navegando en el sitio</a>
+                </div>
+            </div>
         </div>
     </section>
 </body>

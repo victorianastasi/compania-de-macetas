@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,81 +24,91 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- JQUERY -->
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script defer src="index.js"></script>
+    <script defer type="module" src="./js/index.js"></script>
     <!-- CSS-->
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
     <header>
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" class="svg-bg" preserveAspectRatio="none" viewBox="0 0 1440 560">
-            <g mask="url(&quot;#SvgjsMask1021&quot;)" fill="none">
-                <path d="M 0,63 C 96,72.4 288,115.4 480,110 C 672,104.6 768,36.6 960,36 C 1152,35.4 1344,92.8 1440,107L1440 560L0 560z" fill="rgba(209, 153, 112, 1)"></path>
-                <path d="M 0,327 C 96,313.6 288,263 480,260 C 672,257 768,325.2 960,312 C 1152,298.8 1344,217.6 1440,194L1440 560L0 560z" fill="rgba(251, 191, 117, 1)"></path>
-                <path d="M 0,486 C 57.6,468.4 172.8,391.6 288,398 C 403.2,404.4 460.8,511.8 576,518 C 691.2,524.2 748.8,438.6 864,429 C 979.2,419.4 1036.8,477.2 1152,470 C 1267.2,462.8 1382.4,408.4 1440,393L1440 560L0 560z" fill="rgba(244, 217, 193, 1)"></path>
-            </g>
-            <defs>
-                <mask id="SvgjsMask1021">
-                    <rect width="1440" height="560" fill="#ffffff"></rect>
-                </mask>
-            </defs>
-        </svg>
-        <div class="logo-container">
-            <img class="logo animate__animated animate__tada animate__slow animate__infinite infinite" src="./img/logo.jpg" alt="Compañia de Macetas">
-        </div>
-        <div class="title-text">
-            <h1 class="title">Compañia de Macetas</h1>
-            <nav class="nav nav-pills nav-justified">
-                <a class="nav-link active" aria-current="page" href="#macetas">Nuestras Macetas</a>
-                <a class="nav-link" href="#somos">Quienes Somos</a>
-                <a class="nav-link" href="#contacto">Contacto</a>
+        <div class="title-box">
+            <h1 class="title" id="principal-title"><a href="./index.html">Compañia de Macetas</a></h1>
+            <nav class="nav nav-pills">
+                <div class="dropdown">
+                    <button class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Nuestras Macetas</button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item mandalaModel" >Macetas Mandala</a></li>
+                        <li><a class="dropdown-item negrasModel" href="./views/products.html">Macetas Negras</a></li>
+                        <li><a class="dropdown-item guardasModel" href="./views/products.html">Macetas con Guardas</a></li>
+                        <li><a class="dropdown-item puntiModel" href="./views/products.html">Macetas con Puntillismo</a></li>
+                        <li><a class="dropdown-item floresModel" href="./views/products.html">Macetas con Flores</a></li>
+                        <li><a class="dropdown-item yogaModel" href="./views/products.html">Macetas de Yoga</a></li>
+                        <li><a class="dropdown-item personajesModel" href="./views/products.html">Macetas con Personajes</a></li>
+                        <li><a class="dropdown-item andinasModel" href="./views/products.html">Macetas Andinas</a></li>
+                        <li><a class="dropdown-item grandesModel" href="./views/products.html">Macetas de más de 20cm</a></li>
+                        <li><a class="dropdown-item chicasModel" href="./views/products.html">Macetas de menos de 20cm</a></li>
+                        <li><a class="dropdown-item infantilesModel" href="./views/products.html">Macetas Infantiles</a></li>
+                        <li><a class="dropdown-item navidadModel" href="./views/products.html">Macetas Navideñas</a></li>
+                        <li><a class="dropdown-item institucionalesModel" href="./views/products.html">Macetas Institucionales</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="nav-link dropdown-toggle" role="button" id="dropdownMacetasLink" data-bs-toggle="dropdown" aria-expanded="false">Accesorios de Macetas</button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMacetasLink">
+                        <li><a class="dropdown-item tutoresAccessories" href="./views/products.html">Tutores</a></li>
+                        <li><a class="dropdown-item portamacetasAccessories" href="./views/products.html">Portamacetas</a></li>
+                        <li><a class="dropdown-item portasahumeriosAccessories" href="./views/products.html">Porta Sahumerios</a></li>
+                    </ul>
+                </div>
+                <a class="nav-link  active" href="#categories">Categorías</a>
+                <a class="nav-link" id="somos-btn" href="#somos">Quienes Somos</a>
+                <a class="nav-link" id="contact-btn" href="#contact-box">Contacto</a>
             </nav>
         </div>
     </header>
-    
-    <button id="btnTop" class="btn btnTop"><i class="fas fa-arrow-up btnTop-icon"></i></button>
 
-    <section class="macetas">
-        <div class="macetas-bg">
-            <h3 class="title-section" id="macetas">Nuestras Macetas</h3>
-            <div class="box-macetas">
-                <img src="./img/m-1.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-2.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-3.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-4.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-5.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-6.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-7.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-8.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-9.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-10.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-11.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-12.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-13.png" alt="Maceta" class="img-macetas">
-                <img src="./img/m-14.png" alt="Maceta" class="img-macetas">
-            </div>
+    <section class="logo-container" id="logo-container">
+        <img class="logo animate__animated animate__tada animate__slow animate__infinite infinite" src="./img/logo.png" alt="Compañia de Macetas">
+    </section>
+    
+    <section class="categories" id="categories">
+        <div class="categories-bg">
+            <h3 class="title-section">Nuestras Macetas</h3>
+            <div class="box-categories" id="box-categories"></div>
+            <h3 class="title-section">Accesorios para Macetas</h3>
+            <div class="box-categories" id="box-accessories"></div>
         </div>
     </section>
 
-    <section class="somos">
-        <h3 class="title-section" id="somos">Quienes Somos</h3>
+    <section class="envios" >
+        <a href="#contact-box">
+            <h5 class="envios-title"><i class="fas fa-map-marker-alt"></i> Estamos en la Provincia de Buenos Aires</h5>
+            <p>Consultanos por envios y puntos de entrega!</p>
+        </a>
+    </section>
+
+    <section class="somos" id="somos">
+        <h3 class="title-section">Quienes Somos</h3>
         <div class="box-somos"></div>
         <div class="box-somos-text">
             <p>Hola! Somos Marisa y Betina, queremos aportar vitalidad a tu rincón dedicado a las plantas.</p>
             <p>Para nosotras las macetas son lienzos en blanco, en los que podemos volcar toda nuestra creatividad.</p>
+            <p>Todos los diseños están protegidos - Esta prohibida su reproducción.</p>
         </div>
     </section>
 
-    <section>
+    <section id="contact-box">
         <h3 class="title-section" id="contacto">Contacto</h3>
         <div class="social-media">
-            <a href="https://www.instagram.com/companiademacetas/" target="_blank" class="social-media-icon">
-                <i class="fab fa-instagram icon instagram"></i><span class="icon-text">Instagram</span> 
+            <a href="https://www.facebook.com/companiademacetas/" target="_blank" class="social-media-icon facebook-hover" title="Facebook - Compania de Macetas">
+                <i class="fab fa-facebook icon facebook"></i><span class="icon-text">Compania de Macetas</span> 
             </a>
-            <a href="https://wa.me/5491159986940?text=¡Hola!%20Quiero%20consultarles%20por%20" target="_blank" class="social-media-icon">
-                <i class="fab fa-whatsapp icon wapp"></i><span class="icon-text">Whatsapp</span>
+            <a href="https://www.instagram.com/companiademacetas/" target="_blank" class="social-media-icon instagram-hover" title="Instagram - companiademacetas">
+                <i class="fab fa-instagram icon instagram"></i><span class="icon-text">companiademacetas</span> 
+            </a>
+            <a href="https://wa.me/5491159986940?text=¡Hola!%20Quiero%20consultarles%20por%20" target="_blank" class="social-media-icon wapp-hover" title="Whatsapp - 11-5998-6940">
+                <i class="fab fa-whatsapp icon wapp"></i><span class="icon-text icon-text-wapp">11 5998-6940</span>
             </a>
         </div>
-
         <div class="query-container">
             <div class="query">
                 <p class="query-title">Envianos tu consulta!</p>
@@ -121,8 +131,11 @@
             </div>
         </div>
     </section>
+
+    <button id="btnTop" class="btn btnTop"><i class="fas fa-arrow-up btnTop-icon"></i></button>
+
     <footer>
-        <p><i class="far fa-copyright"></i> Copyright 2021 | Compañia de Macetas</p>
+        <p><i class="far fa-copyright"></i> Copyright 2022 | Compañia de Macetas</p>
     </footer>
 </body>
 </html>

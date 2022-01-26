@@ -1,0 +1,28 @@
+.products{
+    margin: 7rem 0 2rem 0;
+}
+.box-products{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../img/green.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    color: rgb(76, 78, 80);
+    color: rgb(60, 62, 63);
+    margin: 1rem;
+    border: 9px solid rgba(255,255,255, 1);
+    background-color: rgba(250, 250, 250, 0.5);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    font-weight: 600;
+}

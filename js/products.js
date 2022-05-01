@@ -12,14 +12,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
         dataType: "json",
         success: function(data) {
             productos = data;
-
+            console.log(productos)
             let listItemProd = localStorage.getItem("listItem");
             switch(listItemProd) {
                 case '"mandalaModel"':
                     document.getElementById("prod-categories").classList.remove("show"); 
                     document.getElementById("prod-products").classList.remove("hide");
                     showProducts(productos.mandala);
-                    
                     break;
                 case '"negrasModel"':
                     document.getElementById("prod-categories").classList.remove("show"); 
@@ -81,11 +80,20 @@ window.addEventListener('DOMContentLoaded', (event) => {
                     document.getElementById("prod-products").classList.remove("hide");
                     showProducts(productos.institucionales);
                     break;
+                case '"souvenirsModel"':
+                    document.getElementById("prod-categories").classList.remove("show"); 
+                    document.getElementById("prod-products").classList.remove("hide");
+                    showProducts(productos.souvenirs);
+                    break;
+                case '"texturasModel"':
+                    document.getElementById("prod-categories").classList.remove("show"); 
+                    document.getElementById("prod-products").classList.remove("hide");
+                    showProducts(productos.texturas);
+                    break;
                 case '"tutoresAccessories"':
                     document.getElementById("prod-categories").classList.remove("show"); 
                     document.getElementById("prod-products").classList.remove("hide");
                     showProducts(productos.tutores);
-                    
                     break; 
                 case '"portamacetasAccessories"':
                     document.getElementById("prod-categories").classList.remove("show"); 
@@ -96,7 +104,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
                     document.getElementById("prod-categories").classList.remove("show"); 
                     document.getElementById("prod-products").classList.remove("hide");
                     showProducts(productos.portasahumerios);
-
                     break;      
                 default:
                     document.getElementById("prod-categories").classList.add("show"); 
@@ -118,6 +125,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
             modelActive("infantilesModel", productos.infantiles, listItemProd);
             modelActive("navidadModel", productos.navidad, listItemProd);
             modelActive("institucionalesModel", productos.institucionales, listItemProd);
+            modelActive("souvenirsModel", productos.souvenirs, listItemProd);
+            modelActive("texturasModel", productos.texturas, listItemProd);
             modelActive("tutoresAccessories", productos.tutores, listItemProd);
             modelActive("portamacetasAccessories", productos.portamacetas, listItemProd);
             modelActive("portasahumeriosAccessories", productos.portasahumerios, listItemProd);
@@ -166,6 +175,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
         modelActive("infantilesModel", productos.infantiles, local);
         modelActive("navidadModel", productos.navidad, local);
         modelActive("institucionalesModel", productos.institucionales, local);
+        modelActive("souvenirsModel", productos.souvenirs, local);
+        modelActive("texturasModel", productos.texturas, local);
         modelActive("tutoresAccessories", productos.tutores, local);
         modelActive("portamacetasAccessories", productos.portamacetas, local);
         modelActive("portasahumeriosAccessories", productos.portasahumerios, local);
@@ -217,7 +228,40 @@ window.addEventListener('DOMContentLoaded', (event) => {
                     </div>
                 </div>
                 `;
-                }else{
+                }else if(list[i].nombre == "Souvenirs ~ Maceta clásica de 7 cm de diámetro"){
+                    acu += `
+                    <div class="card card-item  animate__animated animate__fadeIn" style="width: 18rem;" type="button" data-bs-toggle="modal" data-bs-target="#productModal-${i}">
+                        <img src=${list[i].img} class="card-img-top" alt="${list[i].nombre}">
+                        <div class="card-body card-item-body">
+                            <h5 class="card-title card-item-title">${list[i].nombre}</h5>
+                            <p class="card-text mb-1"> Precio: $ ${list[i].precio}</p>
+                            <p class="card-text"> Pedidos por mayor, consultar por privado <i class="far fa-smile-beam"></i></p>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="productModal-${i}" tabindex="-1" aria-labelledby="productModalLabel-${i}" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="productModalLabel-${i}">${list[i].nombre}</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src=${list[i].img} class="card-img-top" alt="${list[i].nombre}">
+                                </div>
+                                <div class="modal-bottom">
+                                    <h6 class="modal-bottom-title">Características:</h6>
+                                    <ul>
+                                        <li class="modal-bottom-li">Es puro diseño nuestro, 100% artesanal.</li>
+                                        <li class="modal-bottom-li">Macetas impermeabilizadas.</li>
+                                        <li class="modal-bottom-li">Utilizamos esmaltes acrílicos de primera marca.</li>
+                                        <li class="modal-bottom-li">Están protegidos con filtro UV doble, para su estadía en el exterior.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    `;
+                    }else{
                 acu += `
                 <div class="card card-item  animate__animated animate__fadeIn" style="width: 18rem;" type="button" data-bs-toggle="modal" data-bs-target="#productModal-${i}">
                     <img src=${list[i].img} class="card-img-top" alt="${list[i].nombre}">

@@ -7,7 +7,6 @@
         {"tipo": "Macetas Mandala", "nombre": "Maceta cónica de 8 cm de diámetro", "img": "../img/mandala5.jpg", "precio": 700, "slider": 0},
         {"tipo": "Macetas Mandala", "nombre": "Maceta cónica de 12 cm de diámetro", "img": "../img/mandala6.jpg", "precio": 900, "slider": 0}
     ],
-
     "negras" : [
         {"tipo": "Macetas Negras", "nombre": "Maceta cónica de 10 cm de diámetro", "img": "../img/negras4.jpg", "precio": 800, "slider": 0},
         {"tipo": "Macetas Negras", "nombre": "Maceta cónica de 12 cm de diámetro", "img": "../img/negras5.jpg", "precio": 900, "slider": 0},
@@ -36,11 +35,14 @@
         {"tipo": "Macetas con Flores", "nombre": "Maceta cónica de 18 cm de diámetro", "img": "../img/flores5.jpg", "precio": 2200, "slider": 0},
         {"tipo": "Macetas con Flores", "nombre": "Maceta cónica de 31 cm de diámetro", "img": "../img/flores6.jpg", "precio": 3700, "slider": 0},
         {"tipo": "Macetas con Flores", "nombre": "Maceta clásica de 7 cm de diámetro", "img": "../img/flores7.jpg", "precio": 600, "slider": 0},
-        {"tipo": "Macetas con Flores", "nombre": "Maceta cilíndrica de 12 cm de diámetro", "img": "../img/flores8.jpg", "precio": 1000, "slider": 0}
+        {"tipo": "Macetas con Flores", "nombre": "Maceta cilíndrica de 12 cm de diámetro", "img": "../img/flores8.jpg", "precio": 1000, "slider": 0},
+        {"tipo": "Macetas con Flores", "nombre": "Maceta cónica de 12 cm de diámetro", "img": "../img/flores9.jpg", "precio": 900, "slider": 0}
     ],
     "yoga" : [
         {"tipo": "Macetas de Yoga", "nombre": "Maceta de cerámica con vela", "img": "../img/yoga1.jpg", "precio": 700, "slider": 0},
-        {"tipo": "Macetas de Yoga", "nombre": "Maceta cilíndrica de 12 cm de diámetro", "img": "../img/yoga1.jpg", "precio": 1000, "slider": 0}
+        {"tipo": "Macetas de Yoga", "nombre": "Maceta cilíndrica de 12 cm de diámetro", "img": "../img/yoga1.jpg", "precio": 1000, "slider": 0},
+        {"tipo": "Macetas de Yoga", "nombre": "Maceta clásica de 16 cm de diámetro", "img": "../img/yoga2.jpg", "precio": 1250, "slider": 0},
+        {"tipo": "Macetas de Yoga", "nombre": "Maceta clásica de 20 cm de diámetro", "img": "../img/yoga3.jpg", "precio": 2700, "slider": 0}
     ],
     "personajes" : [
         {"tipo": "Macetas con Personajes", "nombre": "Maceta de cerámica de 9 cm", "img": "../img/personajes1.jpg", "precio": 1000, "slider": 0},
@@ -56,10 +58,12 @@
     ],
     "grandes" : [
         {"tipo": "Macetas de más de 20cm", "nombre": "Maceta clásica de 20 cm de diámetro", "img": "../img/grandes1.jpg", "precio": 2700, "slider": 0},
+        {"tipo": "Macetas de más de 20cm", "nombre": "Maceta clásica de 20 cm de diámetro", "img": "../img/yoga3.jpg", "precio": 2700, "slider": 0},
         {"tipo": "Macetas de más de 20cm", "nombre": "Maceta clásica de 22 cm de diámetro", "img": "../img/grandes2.jpg", "precio": 2900, "slider": 0},
         {"tipo": "Macetas de más de 20cm", "nombre": "Maceta bombe  de 20cm de diámetro", "img": "../img/grandes3.jpg", "precio": 2000, "slider": 0},
         {"tipo": "Macetas de más de 20cm", "nombre": "Maceta cónica de 31 cm de diámetro", "img": "../img/grandes4.jpg", "precio": 3700, "slider": 0},
-        {"tipo": "Macetas de más de 20cm", "nombre": "Maceta clásica de 35 cm de diámetro", "img": "../img/grandes5.jpg", "precio": "Consultanos por su precio", "slider": 0}
+        {"tipo": "Macetas de más de 20cm", "nombre": "Maceta clásica de 35 cm de diámetro", "img": "../img/grandes5.jpg", "precio": "Consultanos por su precio", "slider": 0},
+        {"tipo": "Macetas de más de 20cm", "nombre": "Maceta acanalada", "img": "../img/grandes6.jpg", "precio": 1200, "slider": 0}
     ],
     "chicas" : [
         {"tipo": "Macetas de menos de 20cm", "nombre": "Maceta cónica de 8 cm de diámetro", "img": "../img/chicas1.jpg", "precio": 700, "slider": 0},
@@ -69,7 +73,9 @@
         {"tipo": "Macetas de menos de 20cm", "nombre": "Maceta cónica de 18 cm de diámetro", "img": "../img/chicas5.jpg", "precio": 2200, "slider": 0},
         {"tipo": "Macetas de menos de 20cm", "nombre": "Maceta clásica de 10 cm de diámetro", "img": "../img/chicas6.jpg", "precio": 700, "slider": 0},
         {"tipo": "Macetas de menos de 20cm", "nombre": "Maceta cilíndrica de 12 cm de diámetro", "img": "../img/chicas7.jpg", "precio": 1000, "slider": 0},
-        {"tipo": "Macetas de menos de 20cm", "nombre": "Maceta clásica de 18 cm de diámetro", "img": "../img/chicas8.jpg", "precio": 2000, "slider": 0}
+        {"tipo": "Macetas de menos de 20cm", "nombre": "Maceta clásica de 18 cm de diámetro", "img": "../img/chicas8.jpg", "precio": 2000, "slider": 0},
+        {"tipo": "Macetas de menos de 20cm", "nombre": "Maceta clásica de 10 cm de diámetro", "img": "../img/chicas9.jpg", "precio": 700, "slider": 0},
+        {"tipo": "Macetas de menos de 20cm", "nombre": "Maceta clásica de 10 cm de diámetro", "img": "../img/chicas10.jpg", "precio": 700, "slider": 0}
     ],
     "infantiles" : [
         {"tipo": "Macetas Infantiles", "nombre": "Maceta clásica de 12 cm de diámetro", "img": "../img/infantiles1a.jpg", "imgSlider1": "../img/infantiles1b.jpg","imgSlider2": "../img/infantiles1c.jpg", "precio": 850, "slider": 2},
@@ -93,9 +99,19 @@
         {"tipo": "Macetas Institucionales", "nombre": "Maceta clásica de 10 cm de diámetro", "img": "../img/institucionales1.jpg", "imgSlider1": "../img/institucionales1b.jpg", "precio": 700, "slider": 1},
         {"tipo": "Macetas Institucionales", "nombre": "Maceta cilíndrica de 12 cm de diámetro", "img": "../img/institucionales2.jpg", "precio": 1000, "slider": 0}
     ],
+    "souvenirs" : [
+        {"tipo": "Souvenirs", "nombre": "Souvenirs ~ Maceta clásica de 7 cm de diámetro", "img": "../img/souvenirs1.jpg", "precio": 600, "slider": 0}
+    ],
+    "texturas" : [
+        {"tipo": "Nuevas Texturas", "nombre": "Maceta clásica de 10 cm de diámetro", "img": "../img/textura1a.jpg", "imgSlider1": "../img/textura1b.jpg", "precio": 1000, "slider": 1},
+        {"tipo": "Nuevas Texturas", "nombre": "Maceta clásica de 12 cm de diámetro", "img": "../img/textura2a.jpg", "imgSlider1": "../img/textura2b.jpg", "precio": 1250, "slider": 1},
+        {"tipo": "Nuevas Texturas", "nombre": "Maceta clásica de 14cm de diámetro", "img": "../img/textura3a.jpg", "imgSlider1": "../img/textura3b.jpg", "precio": 1500, "slider": 1},
+        {"tipo": "Nuevas Texturas", "nombre": "Maceta clásica de 7cm de diámetro", "img": "../img/textura4.jpg", "precio": 600, "slider": 0}
+    ],
     "tutores" : [
         {"tipo": "Tutores", "nombre": "Tutores 15 cm Colibrí (32 cm de vara)", "img": "../img/tutores1a.jpg", "imgSlider1": "../img/tutores1b.jpg", "precio": 800, "slider": 1},
-        {"tipo": "Tutores", "nombre": "Tutores 23 cm (70 cm de vara)", "img": "../img/tutores2a.jpg", "imgSlider1": "../img/tutores2b.jpg", "precio": 1100, "slider": 1}
+        {"tipo": "Tutores", "nombre": "Tutores 23 cm (70 cm de vara)", "img": "../img/tutores2a.jpg", "imgSlider1": "../img/tutores2b.jpg", "precio": 1100, "slider": 1},
+        {"tipo": "Tutores", "nombre": "Tutores 23 cm (70 cm de vara)", "img": "../img/tutores3.jpg", "precio": 1100, "slider": 0}
     ],
     "portamacetas" : [
         {"tipo": "Portamacetas", "nombre": "Portamacetas 11 cm de imagen, 33 cm de vara (para macetas de 10 cm de diametro)", "img": "../img/portamacetas1.jpg", "precio": 900, "slider": 0}
@@ -116,7 +132,9 @@
         {"title": "Macetas de menos de 20cm", "idModel":"chicasModel", "imgModel": "../img/categchicas.jpg"},
         {"title": "Macetas Infantiles", "idModel":"infantilesModel", "imgModel": "../img/categinfantiles.jpg"},
         {"title": "Macetas Navideñas", "idModel":"navidadModel", "imgModel": "../img/categnavidad.jpg"},
-        {"title": "Macetas Institucionales", "idModel":"institucionalesModel", "imgModel": "../img/categinstitucionales.jpg"}
+        {"title": "Macetas Institucionales", "idModel":"institucionalesModel", "imgModel": "../img/categinstitucionales.jpg"},
+        {"title": "Souvenirs", "idModel":"souvenirsModel", "imgModel": "../img/catsouvenirs.jpg"},
+        {"title": "Nuevas Texturas", "idModel":"texturasModel", "imgModel": "../img/textura3a.jpg"}
     ],
     "productsAccessories" : [
         {"title": "Tutores", "idModel":"tutoresAccessories", "imgModel": "../img/categtutores.jpg"},

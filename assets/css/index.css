@@ -259,15 +259,18 @@ nav{
     font-family: Smilicious;
     font-size: 1.3rem;
     letter-spacing: 2px;
+    margin-bottom: 1rem;
+    color: rgb(98, 101, 103);
+}
+.envios .envios-title__text{
     color: rgb(98, 101, 103);
 }
 .envios p{
-    margin: 0;
     color: rgb(207,145,103);
     font-weight: 600;
 }
 .box-somos{
-    background-image: url("../../img/somos.png");
+    background-image: url("../../img/team1.jpeg");
     height: 210px;
     background-position: center;
     background-repeat: no-repeat;
@@ -361,7 +364,7 @@ nav{
     background-position: center;
     background-size: cover;
     position: relative;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     padding: 1rem 0;
 }
 .query {
@@ -538,16 +541,15 @@ footer{
         width: 25%;
     }
     .box-somos{
-        background-image: url("../../img/somos-lg.png");
         height: 550px;
         margin: 2rem 0;
     }
     .box-somos-text{
-        background-color: rgba(250, 250, 250, 0.2);
-        width: 370px;
+        background-color: rgba(20, 20, 20, 0.42);
+        width: 680px;
         border-radius: 20px;
-        box-shadow: 5px 5px 10px rgba(250, 250, 250, 0.3);
-        margin: -560px auto 420px auto;
+        box-shadow: 0px 0px 15px rgba(250, 250, 250, 0.3);
+        margin: -220px auto 120px auto;
         padding: 2rem 1.5rem;
         color: rgb(255, 255, 255);
     }
@@ -644,8 +646,6 @@ footer{
         height: 650px;
     }
     .box-somos-text{
-        width: 420px;
-        margin: -640px auto 490px auto;
         font-size: 1.2rem;
     }
     .social-media{

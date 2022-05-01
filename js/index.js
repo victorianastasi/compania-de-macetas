@@ -7,6 +7,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 
     let productos;
+    console.log(productos)
     
     $.ajax({
         url: "./js/data.json", 
@@ -14,7 +15,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
         success: function(data) {
             productos = data;
             console.log(productos)
-            
             showCardsCategories(productos.productsCategories, "box-categories");
             showCardsCategories(productos.productsAccessories, "box-accessories");
 
@@ -28,6 +28,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     function showCardsCategories (list, idCategories){
         let acuModels = ``;
         for(let i = 0; i < list.length; i++){
+            console.log(list[i].title)
             acuModels += `
             <a id="${list[i].idModel}" class="card bg-dark text-white card-models ${list[i].idModel}" href="./views/products.html">
                 <img src=${list[i].imgModel} class="card-img card-img-model" alt=${list[i].title}>
